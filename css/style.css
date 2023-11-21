@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Share+Tech&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #CBFFF6;
+}
+.top {
+    background-image: url(../IMAGES/Fundo.png);
+    width: 100%;
+    height: 72.1vh;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 20vh;
+}
+.middle {
+    background-image: url(../IMAGES/Background.png);
+    width: 100%;
+    height: 300vh;
+}
+.bottom {
+    background-image: url(../IMAGES/backgroundBottom.png);
+    width: 100%;
+    height: 190vh;
+}
