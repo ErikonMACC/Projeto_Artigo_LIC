@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;600&family=Poppins&family=Share+Tech&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F6FF;
+}
+
+.top {
+    background-image: url(../IMAGES/FundoTopics.png);
+    background-size: 100% 610px;
+    width: 100%;
+    height: 610px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+}
+
+
+header a img:hover {
+    width: 35vw;
+}
+
+.hero .title {
+    width: 452px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: -1.92px;
+}
+
+.hero img {
+    width: 362px;
+    height: 232px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 370px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 40%;
+    height: 32vh;
+    justify-content: space-between;
+}
+
+.player {
+    width: 35vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #99B8FF;
+    border: 3px #CCDBFF solid;
+    border-radius: 16px;
+}
+
+.player .text {
+    color: #0E1E45;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #99B8FF;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #0E1E45;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #0E1E45;
+}

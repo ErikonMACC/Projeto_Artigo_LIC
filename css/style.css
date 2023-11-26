@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #CBFFF6;
+    background-color: #F2F6FF;
 }
 
 .title {
@@ -123,7 +123,7 @@ header .navList a {
     height: 6vh;
     width: 40%;
     border-radius: 50px;
-    border: 2px solid #35A29F;
+    border: 2px solid #5981DE;
     background: rgba(203, 255, 246, 0.30);
 }
 
