@@ -131,6 +131,8 @@ header .navList a {
     border: 2px solid #5981DE;
     transition: 0.3s;
     background: rgba(203, 255, 246, 0.30);
+    margin-top: 20px;
+
 }
 
 .hero .button a {
@@ -159,8 +161,10 @@ header .navList a {
     justify-content: center;
     width: 90%;
     margin-top: 1vh;
+    margin-bottom: 8vh;
     margin-left: 5%;
     margin-right: 5%;
+
 }
 
 .middle .Title .title {

@@ -50,7 +50,37 @@ footer {
 
 .hero img {
     width: 362px;
-    height: 232px;
+    height: 272px;
+   
+}
+
+.hero_social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 370px;
+}
+
+.hero_social .title {
+    width: 452px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: -1.92px;
+}
+
+.hero_social img {
+    width: 362px;
+    height: 282px;
+    position: relative;
+    left: -80px;
+   
 }
 
 .top header a img {
@@ -72,6 +102,8 @@ footer {
     margin-right: 10%;
     height: 370px;
 }
+
+
 
 
 
@@ -149,6 +181,9 @@ audio::-webkit-media-controls-time-remaining-display {
     width: 35%;
 }
 
+.container .imageBox img{
+    width: 500px;
+}
 .textBox {
     width: 35%;
 }
